@@ -33,7 +33,7 @@
 /*-------------DARK MODE-------------*/
 /*---------------BASIC---------------*/
 .theme-dark {
-  --accent-color: #bde6fb;
+  --accent-color: #ffc9c9;
   --background-1: #171d20;
   --background-2: #1e2529;
   --background-accent: #1e2529;
@@ -57,8 +57,8 @@
   --background-tertiary: var(--background-2);
   --background-accent-gradient: var(--background-2);
   --background-floating: var(--background-1);
-  --background-mentioned: #bde6fb10;
-  --background-mentioned-hover: #bde6fb15;
+  --background-mentioned: #ffc9c910;
+  --background-mentioned-hover: #ffc9c915;
   /* modifiers */
   --background-modifier-hover: #262e33;
   --background-modifier-active: #495a63;
@@ -68,7 +68,7 @@
   /* text */
   --text-normal: var(--accent-color);
   --text-positive: var(--text-normal);
-  --text-muted: #6d8692;
+  --text-muted: #cf8585;
   --text-link: #edf8fe;
   --interactive-selected: var(--background-primary);
   --interactive-active: var(--text-normal);
@@ -78,7 +78,7 @@
   --header-primary: var(--text-normal);
   --header-secondary: var(--text-muted);
   /* more */
-  --settings-icon-color: #8eacbc;
+  --settings-icon-color: #c68989
   --control-brand-foreground: var(--accent-color);
   --info-warning-foreground: var(--accent-color);
   --tab-selected: #354249;
@@ -86,15 +86,15 @@
   --activity-card-background: var(--background-1);
   --brand-experiment: var(--accent-color) !important;
   /* buttons */
-  --button-background: #2a3439;
-  --button-background-hover: #354249;
-  --button-background-active: #4d5f68;
+  --button-background: #7a5a5a;
+  --button-background-hover: #523c3c;
+  --button-background-active: #7f5e5e;
   --button-accent: var(--accent-color);
-  --button-accent-hover: #d2f3ff;
-  --button-accent-active: #8dd4f8;
-  --button-destructive: #fb7c7c;
-  --button-destructive-hover: #ff929b;
-  --button-destructive-active: #fa4a4a;
+  --button-accent-hover: #ffdcdc;
+  --button-accent-active: #efafaf;
+  --button-destructive: #454545;
+  --button-destructive-hover: #757575;
+  --button-destructive-active: #000000;
 }
 .theme-light {
   /* background */
